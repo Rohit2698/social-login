@@ -24,8 +24,6 @@ function App() {
             <div>
               <span className="title">Login</span>
             </div>
-            <input className="textField" type="text" placeholder="Enter Username" />
-            <input className="textField" type="password" placeholder="Enter Password" />
             <div className="social-buttons">
               <GoogleAuthentication
                 isLogined={setLogined}
