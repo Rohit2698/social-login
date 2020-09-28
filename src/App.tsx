@@ -4,7 +4,7 @@ import GoogleAuthentication from './Authentication/GoogleAuth/GoogleAuthenticati
 import FacebookAuthentication from './Authentication/FacebookAuthentication/FacebookAuthentication';
 import LinkedInAuthetication from './Authentication/LinkedInAuthentication/LinkedInAuthentication';
 import SuccessLogin from './Authentication/SuccesLogin/SuccesLogin';
-
+import GitHubAuthentication from './Authentication/GithubAuthentication/GithubAuthentication';
 
 
 export interface info {
@@ -40,6 +40,9 @@ function App() {
             </div>
             <div className="social-buttons">
               <LinkedInAuthetication />
+            </div>
+            <div className="social-buttons">
+              <GitHubAuthentication />
             </div>
           </div>
         </header>
