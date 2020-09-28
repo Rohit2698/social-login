@@ -24,6 +24,30 @@
   color: white;
 }
 
+.social-logins-block{
+  background-color: whitesmoke;
+  height: 600px;
+  width:500px;
+  box-shadow: 1px 1px 10px black;
+  display: block;
+}
+
+.user-name {
+  font-size: 30px;
+  color: black;
+}
+.social-buttons{
+  width: 100%;
+}
+.textField{
+  width: 90%;
+  height: 4vh;
+  margin-top: 30px;
+}
+.title{
+  color: black;
+  font-size: 30px;
+}
 .App-link {
   color: #61dafb;
 }
