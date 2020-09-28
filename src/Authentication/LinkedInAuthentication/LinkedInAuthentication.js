@@ -14,7 +14,7 @@ const LinkedInAuthetication = () => {
                 clientId="787j1nfl7kp7kg"
                 onFailure={handleFailure}
                 onSuccess={handleSuccess}
-                redirectUri="http://localhost:3000/"
+                redirectUri="https://github.com/Rohit2698/social-login"
             >
                 LinkedIn
         </LinkedIn>
