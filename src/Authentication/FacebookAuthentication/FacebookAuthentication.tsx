@@ -1,8 +1,6 @@
 import React from 'react';
 import FacebookLogin from 'react-facebook-login';
-import { isPropertySignature } from 'typescript';
 import { userInfo } from '../GoogleAuth/GoogleAuthentication';
-
 
 interface INativeProps {
     isLogined: (login: boolean) => void;
@@ -11,7 +9,6 @@ interface INativeProps {
 
 const FacebookAuthentication = (props: INativeProps) => {
     const responseFacebook=(res:any)=>{
-        console.log(res);
         if (res.accessToken) {
             props.setUserInfo(
                 {

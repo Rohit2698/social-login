@@ -17,6 +17,7 @@ const SuccessLogin = (props: ISuccessLoginNativeProps) => {
                             src={props.userData.photo}
                             height={"200px"}
                             width={"300px"}
+                            alt="..."
                         />
                     </div>
                     <div>
